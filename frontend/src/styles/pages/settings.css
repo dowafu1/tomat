@@ -1,0 +1,90 @@
+/* Settings screen. */
+
+/* Settings                                                           */
+/* ------------------------------------------------------------------ */
+.settings {
+  max-width: 780px;
+}
+
+.settings__intro {
+  margin-bottom: var(--space-6);
+}
+
+.settings-section {
+  margin-bottom: var(--space-5);
+}
+
+.settings-section__head {
+  padding: var(--space-5) var(--space-6) 0;
+}
+
+.settings-section__title {
+  font-size: var(--text-md);
+  font-weight: 650;
+}
+
+.settings-section__text {
+  margin-top: 4px;
+  font-size: var(--text-xs);
+  color: var(--ink-3);
+  line-height: 1.5;
+}
+
+.settings-section__body {
+  padding: var(--space-5) var(--space-6) var(--space-6);
+  display: grid;
+  gap: var(--space-4);
+}
+
+.settings-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+}
+
+.settings-row__text {
+  min-width: 0;
+}
+
+.settings-row__title {
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+.settings-row__meta {
+  margin-top: 2px;
+  font-size: var(--text-xs);
+  color: var(--ink-3);
+  overflow-wrap: anywhere;
+}
+
+.settings-form {
+  display: grid;
+  gap: var(--space-4);
+  max-width: 440px;
+}
+
+.settings-actions {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.danger-zone {
+  border-color: var(--danger-line);
+}
+
+.danger-zone .settings-section__title {
+  color: var(--danger);
+}
+
+.profile-line {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-width: 0;
+}
+
+/* ------------------------------------------------------------------ */
